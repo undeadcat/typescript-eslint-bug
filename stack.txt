@@ -1,0 +1,12 @@
+TypeError: Cannot read property 'text' of undefined
+    at TokenObject.TokenOrIdentifierObject.getText (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/typescript/lib/typescript.js:120347:31)
+    at Converter.convertNode (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:1414:31)
+    at Converter.converter (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:66:27)
+    at Converter.convertChild (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:138:21)
+    at Converter.convertNode (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:601:32)
+    at Converter.converter (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:66:27)
+    at Converter.convertChild (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:138:21)
+    at result.createNode.declarations.node.declarationList.declarations.map.el (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:615:84)
+    at Array.map (<anonymous>)
+    at Converter.convertNode (/Users/jetbrains/sources/testProjects/typescript-eslint-bug/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:615:69)
+
