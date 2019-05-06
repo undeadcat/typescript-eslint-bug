@@ -1,6 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types'
 
-declare var React;
-declare var PropTypes;
 const SHOULD_BE_UNUSED = 1;
 
 const INPUT_PASS_PROPS = {
